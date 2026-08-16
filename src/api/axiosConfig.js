@@ -3,7 +3,7 @@ import { getToken, clearAuth } from "../utils/jwtUtils";
 
 const axiosInstance = axios.create({
     baseURL: import.meta.env.VITE_API_BASE_URL || "https://rechargehub-backend-750i.onrender.com",
-    timeout: 10000,
+    timeout: 45000,
     headers: {
         "Content-Type": "application/json"
     }
